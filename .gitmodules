@@ -4,3 +4,6 @@
 [submodule "library1"]
 	path = library1
 	url = ../library1
+[submodule "library2"]
+	path = library2
+	url = ../library2
