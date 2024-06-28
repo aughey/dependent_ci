@@ -19,8 +19,9 @@ add_subdirectory(src/app)
 # 3rd party libraries
 add_subdirectory(googletest)
 
-# Our libraries
+# Our submodule libraries
 add_subdirectory(library1)
+add_subdirectory(library2)
 
 enable_testing()
 add_subdirectory(src/tests)

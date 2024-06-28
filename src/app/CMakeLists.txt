@@ -7,6 +7,8 @@ project (HELLOexe)
 # Make sure the compiler can find include files for our Hello library
 # when other libraries or executables link to Hello
 include_directories(../lib)
+include_directories(../../library1/src)
+include_directories(../../library2/src)
 
 # Add executable called "helloDemo" that is built from the source files
 # "demo.cxx" and "demo_b.cxx". The extensions are automatically found.
@@ -15,4 +17,4 @@ add_executable (helloDemo hello_world.cpp)
 # Link the executable to the Hello library. Since the Hello library has
 # public include directories we will use those link directories when building
 # helloDemo
-target_link_libraries (helloDemo LINK_PUBLIC Hello)
+target_link_libraries (helloDemo LINK_PUBLIC Hello library1 library2)
