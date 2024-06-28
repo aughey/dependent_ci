@@ -1,1 +1,1 @@
-# dependent_ci
+# Skeleton C++ structure for experimentation

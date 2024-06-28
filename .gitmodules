@@ -1,0 +1,6 @@
+[submodule "googletest"]
+	path = googletest
+	url = ../selfhosted_googletest
+[submodule "library1"]
+	path = library1
+	url = ../library1
